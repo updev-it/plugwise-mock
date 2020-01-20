@@ -1,0 +1,20 @@
+{
+  "name": "plugwise-mock",
+  "version": "1.0.0",
+  "description": "Simple mock server for the Plugwise Home Automation API for use during openHAB binding development",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openhab",
+    "plugwise"
+  ],
+  "author": "B. van Wetten",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
